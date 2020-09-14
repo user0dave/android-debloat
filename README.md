@@ -18,5 +18,5 @@ To **disable** a package:
 To **enable** a package:
 `$ pm enable --user 0 package.name.example`
 
-In case you want to **reinstall** a package, run:
+To **reinstall** a package, run:
 `$ cmd install-existing package.name.example`
