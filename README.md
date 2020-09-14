@@ -12,5 +12,5 @@ Now you will be able to **list** all installed packages on the device via:
 To **remove** a package type:
 `$ pm uninstall -k --user 0 to.be.removed`
 
-In case you want to **install** a package again, run:
-`$ pm install-existing package.name.example`
+In case you want to **reinstall** a package, run:
+`$ cmd install-existing package.name.example`
