@@ -7,10 +7,7 @@ Now you need to enable USB-Debugging on your android device. If you have not ena
 ` $ adb shell`
 
 Now you will be able to list all installed packages on the device via:
-`$ pm list packages`
-
-or filter out a package with a specific name e.g. 
-`$ pm list packages wechat`
+`$ pm list packages`or filter out a package with a specific name e.g. `$ pm list packages wechat`
 
 To remove a package type:
 `$ pm uninstall -k --user 0 to.be.removed`
