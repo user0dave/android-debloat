@@ -13,10 +13,10 @@ To **remove** a package type:
 `$ pm uninstall -k --user 0 package.name.example`
 
 To **disable** a package:
-`$ pm disable -k --user 0 package.name.example`
+`$ pm disable --user 0 package.name.example`
 
 To **enable** a package:
-`$ pm enable -k --user 0 package.name.example`
+`$ pm enable --user 0 package.name.example`
 
 In case you want to **reinstall** a package, run:
 `$ cmd install-existing package.name.example`
