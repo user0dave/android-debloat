@@ -10,7 +10,13 @@ Now you will be able to **list** all installed packages on the device via:
 `$ pm list packages`or filter out a package with a specific name e.g. `$ pm list packages wechat`
 
 To **remove** a package type:
-`$ pm uninstall -k --user 0 to.be.removed`
+`$ pm uninstall -k --user 0 package.name.example`
+
+To **disable** a package:
+`$ pm disable -k --user 0 package.name.example`
+
+To **enable** a package:
+`$ pm enable -k --user 0 package.name.example`
 
 In case you want to **reinstall** a package, run:
 `$ cmd install-existing package.name.example`
