@@ -1,5 +1,7 @@
 # How To Android Debloat using Debian/Ubuntu
 
+Install an app manager or some other application to list all the packages, that are installed on your device. Then you can search for packages that you wish to remove (e.g. facebook).
+
 This is a quick guide on how to get rid of unwanted applications on any android device. First you need to install adb (android debug bridge). This can be done by running the following command:
 `$ sudo apt install android-tools-adb`
 
