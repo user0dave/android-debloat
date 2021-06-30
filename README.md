@@ -24,4 +24,4 @@ To **enable** a package:
 To **reinstall** a package:
 `$ cmd install-existing package.name.example`
 
-Disclaimer: Some packages may still not be removable with this method.
+Disclaimer: Some packages may still not be removable with this method. Do not remove packages that you do not know anything about. Doing so may lead to a malfunctioning device and may require a factory reset.
